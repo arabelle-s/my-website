@@ -1,0 +1,39 @@
+h1 {
+font-size: 350%;
+font-weight:500%;
+color:rgb(81, 160, 148);
+}
+
+h2 {
+font-size:200%;
+color:rgb(73, 111, 171)
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ body {
+    background-color:rgb(201, 201, 201)
+ }
+
+ p {
+    font-family:'Courier New', Courier, monospace
+ }
+
+ li {
+    font-family:'Courier New', Courier, monospace
+ }
+
+ #size-comparison {
+    color:rgb(255, 255, 255)
+ }
+
+ .shadow ol > li {
+    text-shadow: 0.2em 0.2em 0.1em rgb(255, 255, 255);
+ }
+
+ button:hover {
+    font-weight: 300%;
+    color: rgb(187, 29, 82);
+ }
