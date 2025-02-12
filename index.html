@@ -10,43 +10,64 @@
 
 <body>
     <main>
-        <img src="images/clustered-penguins.jpg" alt="a large number of penguins huddled together very closely"
-            width="500">
-        <h1>Penguins</h1>
-        <h2>Introduction</h2>
-        <p><button>This button is ugly, but I wanted to experiment with it.</button>Penguins are a category of flightless bird that mainly inhabit the Southern Hemisphere. There are 18 total
-            species classified as penguins.</p>
-        <h3>Basic information</h3>
-        <ul>
-            <li>They live on coasts and feed exclusively on seafood.</li>
-            <li>They spend a large portion of their time (up to 75% of their lives!) in the water.</li>
-            <li>The largest groups of penguins live on Antarctic coasts.</li>
-            <li>Migration is common among penguins.</li>
-        </ul>
+        <!--needs to be added to background image: alt="a large number of penguins huddled together very closely".
+        figure out later where to put it since image is in css file-->
+        <h1>All About Penguins</h1>
+        <section class="left-side-section top-area">
+            <h2>Introduction</h2>
+            <p>Penguins are a category of flightless bird that mainly inhabit the Southern Hemisphere. There are 18
+                total species classified as penguins.
+                <!--need to add more real text later-->
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Erat proin hendrerit litora blandit conubia quisque
+                lobortis eleifend euismod. Interdum pulvinar curabitur duis finibus consectetur ante. Duis integer
+                torquent feugiat habitasse nunc potenti ac risus. Lectus proin tempus arcu pharetra odio pellentesque,
+                class mus adipiscing. Luctus quis adipiscing tristique sociosqu consequat montes curae egestas. Ante
+                dictum vel condimentum phasellus non nisi nibh sit. Pretium malesuada viverra maecenas purus cubilia
+                auctor curae
+            </p>
+        </section>
+        <section class="left-side-section top-area">
+            <h3>Basic information</h3>
+            <ul>
+                <li>They live on coasts and feed exclusively on seafood.</li>
+                <li>They spend a large portion of their time (up to 75% of their lives!) in the water.</li>
+                <li>The largest groups of penguins live on Antarctic coasts.</li>
+                <li>Migration is common among penguins.</li>
+            </ul>
+        </section>
         <!--later add more description and facts to this main section-->
+        <section id="button-box" class="top-area">
+            <img src="images/image-placeholder.jpg" alt="placeholder" width="150" height="200">
+            <p>Press this red button to read a story about a feathered friend named Bob</p>
+            <a href="article/article.html"><button id="red-button">PRESS ME</button></a>
+        </section>
     </main>
-    <h2>Fun Facts</h2>
-    <div class="shadow">
-        <ol>
-            <li>The black and white coloring featured by most species of penguins is a form of camouflage called
-                countershading. </li>
-            <li>Most birds have hollow bones to allow flight, but penguins have solid bones for swimming.</li>
-            <li>A group of penguins in the water is called a raft!</li>
-            <li>But a group of penguins on land is called a waddle!</li>
-            <!--add more facts, up to at least 10-->
-        </ol>
-    </div>
-    <p><a href="https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins">For more fun facts click
-            here</a></p>
+    <section class="left-full-section" id="ff">
+        <h2>Fun Facts</h2>
+        <div class="shadow">
+            <ol>
+                <li>The black and white coloring featured by most species of penguins is a form of camouflage called
+                    countershading. </li>
+                <li>Most birds have hollow bones to allow flight, but penguins have solid bones for swimming.</li>
+                <li>A group of penguins in the water is called a raft!</li>
+                <li>But a group of penguins on land is called a waddle!</li>
+                <!--add more facts, up to at least 10-->
+            </ol>
+        </div>
+        <p><a href="https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins">For more fun facts click
+                here</a></p>
+    </section>
     <!--find additional sources later-->
-    <h2>About Different Species</h2>
-    <h3>Size Comparison</h3>
-    <!--not a precise size comparison. I did not calculate size averages or find a method to consistently factor in both height and weight into overall size.-->
-    <p id="size-comparison">Little Penguin&lt;White-flippered Penguin&lt;Galápagos Penguin&lt;Southern Rockhopper
-        Penguin&lt;Northern
-        Rockhopper Penguin&lt;Erect-crested Penguin&lt;Fiordland Penguin&lt;Snares Penguin&lt;Humboldt
-        Penguin&lt;African Penguin&lt;Magellanic Penguin&lt;Yellow-eyed Penguin&lt;Chinstrap Penguin&lt;Chinstrap
-        Penguin&lt;Royal Penguin&lt;Macaroni Penguin&lt;Gentoo Penguin&lt;King Penguin&lt;Emperor Penguin</p>
+    <section class="left-full-section" id="ads">
+        <h2>About Different Species</h2>
+        <h3>Size Comparison</h3>
+        <!--not a precise size comparison. I did not calculate size averages or find a method to consistently factor in both height and weight into overall size.-->
+        <p id="size-comparison">Little Penguin&lt;White-flippered Penguin&lt;Galápagos Penguin&lt;Southern Rockhopper
+            Penguin&lt;Northern
+            Rockhopper Penguin&lt;Erect-crested Penguin&lt;Fiordland Penguin&lt;Snares Penguin&lt;Humboldt
+            Penguin&lt;African Penguin&lt;Magellanic Penguin&lt;Yellow-eyed Penguin&lt;Chinstrap Penguin&lt;Chinstrap
+            Penguin&lt;Royal Penguin&lt;Macaroni Penguin&lt;Gentoo Penguin&lt;King Penguin&lt;Emperor Penguin</p>
+    </section>
     <footer>Arabelle Stroud 2025</footer>
     <!--will need to cite sources later-->
 </body>
