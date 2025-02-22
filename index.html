@@ -9,14 +9,19 @@
 </head>
 
 <body>
+    <nav class="main-navbar">
+        <a href="index.html">Homepage</a>
+        <a href="under-construct1.html">King Penguin</a>
+        <a href="under-construct2.html">Little Penguin</a>
+
+    </nav>
     <main>
         <!--needs to be added to background image: alt="a large number of penguins huddled together very closely".
         figure out later where to put it since image is in css file-->
         <h1>All About Penguins</h1>
-        <section class="left-side-section top-area">
+        <section class="left-side-section" id="intro">
             <h2>Introduction</h2>
-            <p>Penguins are a category of flightless bird that mainly inhabit the Southern Hemisphere. There are 18
-                total species classified as penguins.
+            <p>Penguins are a category of flightless bird that mainly inhabit the Southern Hemisphere.
                 <!--need to add more real text later-->
                 Lorem ipsum odor amet, consectetuer adipiscing elit. Erat proin hendrerit litora blandit conubia quisque
                 lobortis eleifend euismod. Interdum pulvinar curabitur duis finibus consectetur ante. Duis integer
@@ -26,7 +31,8 @@
                 auctor curae
             </p>
         </section>
-        <section class="left-side-section top-area">
+        <section class="left-side-section" id="basic-info">
+            <br>
             <h3>Basic information</h3>
             <ul>
                 <li>They live on coasts and feed exclusively on seafood.</li>
@@ -36,15 +42,15 @@
             </ul>
         </section>
         <!--later add more description and facts to this main section-->
-        <section id="button-box" class="top-area">
+        <section id="button-box">
             <img src="images/image-placeholder.jpg" alt="placeholder" width="150" height="200">
-            <p>Press this red button to read a story about a feathered friend named Bob</p>
             <a href="article/article.html"><button id="red-button">PRESS ME</button></a>
+            <p>Press this red button to read a story about my feathered friend named Bob</p>
         </section>
     </main>
     <section class="left-full-section" id="ff">
         <h2>Fun Facts</h2>
-        <div class="shadow">
+        <div>
             <ol>
                 <li>The black and white coloring featured by most species of penguins is a form of camouflage called
                     countershading. </li>
@@ -54,19 +60,133 @@
                 <!--add more facts, up to at least 10-->
             </ol>
         </div>
-        <p><a href="https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins">For more fun facts click
+        <p><a href="https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins" target="_blank">For more fun facts click
                 here</a></p>
     </section>
     <!--find additional sources later-->
     <section class="left-full-section" id="ads">
         <h2>About Different Species</h2>
+        <p>There are 18 species of penguins total. iscing. Luctus quis adipiscing tristique sociosqu consequat montes
+            curae egestas. Ante
+            dictum vel condimentum phasellus non ni</p>
+        <br>
         <h3>Size Comparison</h3>
         <!--not a precise size comparison. I did not calculate size averages or find a method to consistently factor in both height and weight into overall size.-->
-        <p id="size-comparison">Little Penguin&lt;White-flippered Penguin&lt;Galápagos Penguin&lt;Southern Rockhopper
-            Penguin&lt;Northern
-            Rockhopper Penguin&lt;Erect-crested Penguin&lt;Fiordland Penguin&lt;Snares Penguin&lt;Humboldt
-            Penguin&lt;African Penguin&lt;Magellanic Penguin&lt;Yellow-eyed Penguin&lt;Chinstrap Penguin&lt;Chinstrap
-            Penguin&lt;Royal Penguin&lt;Macaroni Penguin&lt;Gentoo Penguin&lt;King Penguin&lt;Emperor Penguin</p>
+        <p>There are 18 species of penguins total.nt feugiat habitasse nunc potenti ac risus. Lectus proin tempus arcu
+            pharetra odio pellentesque,
+            class mus adipiscing. Luctus quis adipiscing tristique sociosqu consequat montes curae egestas. Ante
+            dictum vel condimentum phasellus non nisi nibh sit. Pretium malesuada viverra maecenas purus cubilia
+            auctor curae</p>
+        <br>
+        <section id="species-images">
+            <!--one-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Little</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--two-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">White-flippered</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--three-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Galápagos</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--four-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Southern Rockhopper</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--five-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Northern Rockhopper</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--six-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Erect-crested</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--seven-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Fiordland</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--eight-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Snares</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--nine-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Humboldt</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--ten-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">African</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--eleven-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Magellanic</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--twelve-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Yellow-eyed</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--thirteen-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Chinstrap</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--fourteen-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Royal</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--fifteen-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Macaroni</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--sixteen-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Gentoo</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--seventeen-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">King</h3>
+            </div>
+            <div class="lt-symbols">&lt;</div>
+            <!--eighteen-->
+            <div class="species-item>">
+                <img src="/images/image-placeholder.jpg">
+                <h3 class="size-comparison-names">Emperor</h3>
+            </div>
+        </section>
     </section>
     <footer>Arabelle Stroud 2025</footer>
     <!--will need to cite sources later-->
