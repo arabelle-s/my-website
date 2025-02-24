@@ -85,31 +85,42 @@ li {
    margin-top: 0;
 }
 
+#top-area {
+   display: flex;
+
+}
+
 /*******BUTTON SECTION*******/
 #button-box {
-   float: right;
+   flex: 1;
+   height: fit-content;
+   align-self: center;
    margin: 30px;
    display: flex;
    flex-wrap: wrap;
-   justify-content: start;
-   width: 40vw;
+   justify-content: flex-start;
    background-color: rgb(86, 134, 140);
    padding: 15px;
 }
 
 #button-box p {
    color: rgb(255, 255, 255);
-   width: 350vw;
    margin-top: 15px;
+   align-self: center;
+   justify-self: center;
 }
 
 #button-box img {
    z-index: 3;
+   align-self: center;
+   flex: 1 0 auto;
+   height: auto;
+   max-width: 50%;
 }
 
 #button-box a {
-   align-self: flex-end;
-   margin: 15px 15px 40px 15px;
+   align-self: center;
+   margin: auto;
 }
 
 #red-button {
@@ -193,6 +204,12 @@ li {
    align-items: center;
 }
 
+#scalable-image {
+   width: 25%;
+   min-width: 180px;
+   max-width: 300px;
+}
+
 /*******FOOTER*******/
 footer {
    float: left;
@@ -201,8 +218,8 @@ footer {
 
 /******* MEDIA QUERIES *******/
 @media (max-width:780px) {
-   .top-area {
-      flex-wrap: wrap;
+   #top-area {
+      flex-direction: column;
    }
 
    .left-side-section {
@@ -213,8 +230,22 @@ footer {
       width: 100vw;
    }
 
-   .button-box {
+   #button-box {
       margin: auto;
+      margin-bottom: 30px;
+      max-width: 60vw;
    }
 
+}
+
+@media (max-width:510px) {
+   #button-box {
+      max-width: 80vw;
+   }
+}
+
+@media (max-width:650px) {
+   h1 {
+      font-size: 250%;
+   }
 }
