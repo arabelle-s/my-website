@@ -1,3 +1,4 @@
+/*******GENERAL*******/
 h2,
 h3,
 p,
@@ -15,16 +16,6 @@ ul {
     grid-template-areas: "intro chick-image" "brown-chicks chick-image" "king-vs-emperor king-vs-emperor" "king emperor";
     gap: 30px;
     padding: 30px;
-}
-
-h1,
-h2,
-h3,
-p,
-ol,
-ul {
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 #intro,
@@ -51,16 +42,20 @@ ul {
     background-color: var(--medium-blue);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
 }
 
 #chick-image img {
     width: 35vw;
+    min-width: 180px;
 }
 
 #chick-image figcaption {
     width: 35vw;
+    overflow-wrap: break-word;
 }
 
 #king-vs-emperor {
@@ -73,19 +68,17 @@ ul {
     background-color: var(--darker-blue);
 }
 
-#king figure img {
-    width: calc(50vw - 75px);
-    margin-top: 15px;
-}
-
 #emperor {
     grid-area: emperor;
     background-color: var(--medium-blue);
 }
 
-#emperor figure img {
-    width: calc(50vw - 75px);
+#emperor figure img, #king figure img {
+    width: 70%;
+    margin: auto;
     margin-top: 15px;
+    display: block;
+    max-width: 425px;
 }
 
 /*******MEDIA QUERIES*******/
@@ -93,5 +86,11 @@ ul {
     #container {
         grid-template-columns: 1fr;
         grid-template-areas: "intro" "brown-chicks" "chick-image" "king-vs-emperor" "king" "emperor";
+    }
+}
+
+@media (max-width:665px) {
+    #emperor figure img, #king figure img {
+        width: 100%;
     }
 }

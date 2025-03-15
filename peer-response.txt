@@ -1,0 +1,12 @@
+I wrote my own assessments because I did not turn some of my assignments in on time.
+
+Suggestions
+1. General aesthetic appeal could be improved.
+    Color Scheme: The darker blue color does not have optimal contrast with the text colors.
+    Fonts: Not terrible, but I feel like a more playful or handwriting-like font (but still easily readible) could be used for the general text to match the overall aesthetic better. And then the header fonts could be changed as well to match.
+    Title Background Image: It does not match the overall color scheme very well, it was picked near the beginning of the quarter when we hadn't learned about Creative Commons licensed images (so it is not one), and it is also poor quality.
+2. Some images take up too much or too little space at different viewport sizes, so add min and max sizes and/or some more media queries. Additionally, the current media queries are not sufficient at some smaller viewport widths (i.e. phone viewports) for some of the overall page layouts.
+
+Changes Made
+1. Lightened darker blue color, picked new fonts (one for title header and one for all other text), and picked a new title background image (from openverse.org).
+2. Added and modified media queries for the images on the General page so that they would fit in the viewport better at smaller viewport widths. I also fixed alignment of the images and their titles so that they are arranged more uniformly and none of the text overlaps. Fixed margins breaking at smaller viewport widths on the King Penguin page (problem was due to some padding forceing width to be greater than intended). Added some min and max widths to the images on the King Penguin page and worked with media queries to improve layout at different viewport widths. I also fixed the environment image on the Little Penguin page in a similar way.

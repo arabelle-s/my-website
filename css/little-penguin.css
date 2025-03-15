@@ -11,6 +11,15 @@
     padding: 15px;
 }
 
+h2,
+h3,
+p,
+ol,
+ul {
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
 /*******GRID SETTING*******/
 #container {
     display: grid;
@@ -115,7 +124,8 @@
         margin: auto;
     }
 
-    #environment-image figcaption, #environment-image img {
+    #environment-image figcaption,
+    #environment-image img {
         width: 60vw;
         height: auto;
     }
