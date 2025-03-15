@@ -5,7 +5,7 @@
 #environment-image,
 #environment,
 #behavior,
-#behavior-food,
+#behavior-diet,
 #behavior-seasonal,
 #behavior-threats {
     padding: 15px;
@@ -27,7 +27,7 @@ ul {
     grid-template-rows: auto;
     gap: 30px;
     margin: 30px;
-    grid-template-areas: "intro intro intro" "fun-facts fun-facts fun-facts-image" "environment environment environment" "environment-image environment-image environment-image" "behavior behavior behavior" "behavior-food behavior-seasonal behavior-threats";
+    grid-template-areas: "intro intro intro" "fun-facts fun-facts fun-facts-image" "environment environment environment" "environment-image environment-image environment-image" "behavior behavior behavior" "behavior-diet behavior-seasonal behavior-threats";
 }
 
 #intro {
@@ -92,8 +92,8 @@ ul {
     background-color: var(--medium-blue);
 }
 
-#behavior-food {
-    grid-area: behavior-food;
+#behavior-diet {
+    grid-area: behavior-diet;
     background-color: var(--medium-blue);
 }
 
@@ -108,11 +108,11 @@ ul {
 }
 
 /*******MEDIA QUERIES*******/
-@media (max-width:800px) {
+@media (max-width:925px) {
     #container {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-        grid-template-areas: "intro" "fun-facts" "fun-facts-image" "environment" "environment-image" "behavior" "behavior-food" "behavior-seasonal" "behavior-threats";
+        grid-template-areas: "intro" "fun-facts" "fun-facts-image" "environment" "environment-image" "behavior" "behavior-diet" "behavior-seasonal" "behavior-threats";
     }
 
     #fun-facts-image,

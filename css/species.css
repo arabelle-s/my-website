@@ -26,8 +26,10 @@ td, th {
 }
 
 /*******SECTIONS*******/
-#general-intro {
+#species-intro {
     text-align: center;
+    width: 75vw;
+    margin: auto;
 }
 
 .left-side-section {
@@ -67,6 +69,10 @@ td, th {
     width: auto;
     display: block;
     margin: auto;
+}
+
+#return-to-top {
+    text-decoration: none;
 }
 
 /*******SPECIES IMAGES*******/
