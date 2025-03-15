@@ -23,7 +23,7 @@ h1 {
    font-size: 60px;
    color: white;
    width: auto;
-   background-image: url("/images/title-image.jpg");
+   background-image: url("../images/title-image.jpg");
    filter: grayscale(60%);
    background-position: 5%;
    background-size: 100vw;
