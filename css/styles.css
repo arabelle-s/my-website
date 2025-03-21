@@ -49,14 +49,15 @@ h3 {
    font-variation-settings: "wdth" 100;
 }
 
-p, li {
+p,
+li {
    font-size: 18px;
    font-family: "Sour Gummy", sans-serif;
    font-optical-sizing: auto;
    font-weight: 100;
    font-style: normal;
    font-variation-settings: "wdth" 100;
-   }
+}
 
 /*******NAVBAR*******/
 .navbar {
@@ -88,8 +89,24 @@ p, li {
 
 /*******FOOTER*******/
 footer {
-   float: left;
-   clear: both;
+   background-color: rgb(97, 97, 97);
+   clear: left;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   height: 70px;
+}
+
+footer p, footer a {
+   color: white;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-variation-settings: "wdth" 100;
+   font-size: 22px;
+   text-align: center;
+   text-decoration: none;
 }
 
 /******* MEDIA QUERIES *******/
